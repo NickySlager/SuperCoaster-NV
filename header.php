@@ -2,9 +2,9 @@
 <h1>SuperCoaster</h1>
 <nav>
     <a href="index.php">Home</a>
-    <a href="constructie.php">constructie</a>
-    <a href="karretjes.php">karretjes</a>
-    <a href=""></a>
+    <a href="constructie.php">Constructie</a>
+    <a href="karretjes.php">Karretjes</a>
+    <a href="Contact.html">Contact</a>
     <a href=""></a>
 </nav>
 </header>

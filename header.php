@@ -1,9 +1,11 @@
-<!DOCTYPE HTML>
-<html lang="nl">
-<link rel="stylesheet" href="css/main.css">
-
-<img class="titleHeader" src="img/title.png">
+<header>
 <h1>SuperCoaster</h1>
+<nav>
+    <a href="index.php">Home</a>
+    <a href="constructie.php">constructie</a>
+    <a href="karretjes.php">karretjes</a>
+    <a href=""></a>
+    <a href=""></a>
+</nav>
+</header>
 
-
-</hmtl>

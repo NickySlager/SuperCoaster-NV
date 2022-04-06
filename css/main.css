@@ -111,6 +111,19 @@ textarea {
     align-items: center;
   }
 
+  a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid transparent;
+  }
+  
+  a:hover{
+    border: 1px solid black;
+    color: #4b0000;
+  
+  }
+
   /* ========================================================================
      de navbar van de header zal hier gestyled worden 
      ======================================================================== */

@@ -36,6 +36,21 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <div class="wrapper">
+    <?php require_once 'header.php';?>
+		<?php require_once 'head.php';?>
+    <h1>Home</h1>
+		<div class="constructie-banner">
+		  <img src="img/img6.jpg" alt="achtbaan">
+		</div>
+    <div class ="constructie-container">
+      <img src="img/img9.jpg" alt="Homeplaatje1">
+      <img src="img/img10.jpg" alt="Homeplaatje2">
+		</div>
+    <?php require_once 'footer.php';?>
+  </div>
+
 </body>
 
 </html>

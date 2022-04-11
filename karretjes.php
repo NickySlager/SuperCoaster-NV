@@ -2,6 +2,11 @@
 	<div class="wrapper">
 		<?php require_once 'header.php';?>
 		<?php require_once 'head.php';?>
+
+		<h1>Karretjes</h1>
+		<div class="constructie-banner">
+		<img src="img/img5.jpg" alt="achtbaan">
+		</div>
 	
 		<!-- afbeeldingen/placeholders -->
 		<div class="karretjesimg">

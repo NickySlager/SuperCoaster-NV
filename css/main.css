@@ -301,4 +301,58 @@ textarea {
     page-break-after: avoid;
   }
 }
+/* constructie stylin */
+
+.constructie-container{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+
+
+}
+.constructie-container img{
+  width: 30%;
+  box-shadow: 0px 0px 10px black;
+}
+.constructie-text{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+.constructie-text h3{
+  width: 30%;
+  border: 1px solid black;
+  padding: 10px 10px;
+}
+.constructie-banner{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.constructie-banner img{
+  height:500px;
+  width: 100%;
+  box-shadow: 0px 0px 10px black;
+  margin-top: 20px ;
+}
+.constructie-titel{
+  text-align: center;
+}
+.constructie{
+  background-color: lightblue;
+}
+/* header stylin */
+header{
+  text-align: center;
+  background-color: grey;
+
+}
+header a{
+  text-decoration: none;
+  color: blue;
+
+}
+
+
 

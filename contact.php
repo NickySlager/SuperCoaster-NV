@@ -3,8 +3,7 @@
 <?php require_once "header.php"?>
 <body>
 <div class="contact-container">
-<form>
-<form action="backendcontact.php" method="POST">
+<form action="backendcontact.php" method="post">
     <div class="form-group">
         <label>Naam:</label>
         <input type="text" name="name" >
@@ -21,6 +20,5 @@
 </form>
 </div>
 
-</form>
 </body>
 

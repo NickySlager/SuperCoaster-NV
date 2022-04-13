@@ -4,6 +4,6 @@ $phoneNumber = $_POST['phoneNumber'];
 $email = $_POST['email'];
 
 file_put_contents("contact.txt", $name .", " . $phoneNumber . "," . $email ,FILE_APPEND);
-$msg = "<p> bedankt $Name voor het invullen van het formulier!</p>";
-	header("location: index.php?msg=$msg");
+$msg = "<p> bedankt $name voor het invullen van het formulier!</p>";
+header("location: index.php?msg=$msg");
 ?>

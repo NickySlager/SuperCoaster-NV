@@ -48,6 +48,7 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
+
 }
 
 /*
@@ -91,14 +92,14 @@ textarea {
      width: 500px;
    }
 
-   .wrapper{
+   .wrapper, body{
      margin: 0 auto;
      width: 986px;
    }
 
    body{
     background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(246,243,2,0.2752451322325805) 0%, rgba(244,243,5,0.2780462526807598) 51%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(123, 122, 82, 0.275) 0%, rgba(244,243,5,0.2780462526807598) 51%, rgba(0,212,255,1) 100%);
    }
 
    .textborder{
@@ -109,18 +110,21 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
   }
 
   a{
     color: black;
     padding: 10px;
     text-decoration: none;
-    border: 1px solid transparent;
+    border: 2px solid black;
+    border-radius: 30%;
   }
   
   a:hover{
-    border: 1px solid black;
-    color: #4b0000;
+    border: 2px solid white;
+    border-radius: 30%;
+    color: #d1e91f;
   
   }
 
@@ -306,6 +310,7 @@ textarea {
 .constructie-container{
   display: flex;
   justify-content: space-around;
+  padding: 5 0;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 
@@ -335,6 +340,8 @@ textarea {
   width: 100%;
   box-shadow: 0px 0px 10px black;
   margin-top: 20px ;
+  
+  
 }
 .constructie-titel{
   text-align: center;
@@ -345,12 +352,21 @@ textarea {
 /* header stylin */
 header{
   text-align: center;
-  background-color: grey;
+  background-color: gray;
+  padding-bottom: 2%;
 
 }
 header a{
   text-decoration: none;
-  color: blue;
+  color: rgb(137, 195, 208);
+  border: 2px solid black;
+  border-radius: 30%;
+}
+header a:hover{
+  border: 2px solid white;
+  border-radius: 30%;
+  
+  color: #d1e91f;
 
 }
 /* contact-formulier */

@@ -25,6 +25,7 @@
 				Ook zorgt dit ervoor dat een aantal designs voor achtbanen die eerder niet mogelijk waren nu wel mogelijk zijn.</h3>
 		</div>
 	</div>
+	<?php require_once("footer.php") ?>
 </div>	   
 	<!-- kleine stukjes tekst met unique selling points constructie -->
 	<!-- gebruik display flex -->

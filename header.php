@@ -5,7 +5,7 @@
     <a href="constructie.php">Constructie</a>
     <a href="karretjes.php">Karretjes</a>
     <a href="contact.php">Contact</a>
-    <a href=""></a>
+    
 </nav>
 </header>
 

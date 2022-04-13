@@ -353,6 +353,27 @@ header a{
   color: blue;
 
 }
+/* contact-formulier */
+.contact-container{
+  display: flex;
+  justify-content: center;
+  height:800px ;
+  align-items: center;
+}
+.contact-container form{
+  width: 500px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: grey;
+  
+}
+.contact-container .form-group{
+  margin: 10px;
+  
+}
+.contact-container label{
+  font-weight: bold;
+}
 
 
 

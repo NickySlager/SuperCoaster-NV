@@ -96,6 +96,9 @@ textarea {
      margin: 0 auto;
      width: 986px;
    }
+   .wrapper h1{
+     text-align: center;
+   }
 
    body{
     background: rgb(2,0,36);
@@ -311,9 +314,7 @@ textarea {
   display: flex;
   justify-content: space-around;
   padding: 5 0;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-
+  
 
 }
 .constructie-container img{
@@ -323,7 +324,7 @@ textarea {
 .constructie-text{
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid black;
+  
 }
 .constructie-text h3{
   width: 30%;
@@ -349,15 +350,17 @@ textarea {
 /* header stylin */
 header{
   text-align: center;
-  background-color: gray;
+  background-color:turquoise;
   padding-bottom: 2%;
+  border: 3px solid yellow;
 
 }
 header a{
   text-decoration: none;
-  color: rgb(137, 195, 208);
+  color: black;
   border: 2px solid black;
   border-radius: 30%;
+  background-color: yellow;
 }
 header a:hover{
   border: 2px solid white;
@@ -389,4 +392,21 @@ header a:hover{
 }
 
 
+/* footer stylin */
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color:turquoise;
+  padding-bottom: 2%;
+  border: 3px solid yellow;
+  margin: 10px 0px;
+}
+footer a
+{
+  background-color: yellow;
+}
+.Copy
+{
+  font-weight: bold;
+}
 
